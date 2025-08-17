@@ -212,7 +212,7 @@ function startPlayerCountCheck() {
 async function updateEmbedAndButtons(channel) {
   try {
     const embed = new EmbedBuilder()
-      .setTitle('Ping Manager OINK1')
+      .setTitle('Ping Manager')
       .setColor(pingConfig.isRunning ? '#00ff00' : '#ff0000')
       .setTimestamp()
       .addFields(
